@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "estoque",
+    "slug": "estoque",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/img/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mateusribeiroviana0.estoque"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mateusribeiroviana0.estoque"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f0bfb366-8c64-4b32-b764-279ae5689868"
+      }
+    }
+  }
+}
